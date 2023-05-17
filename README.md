@@ -1,5 +1,5 @@
 # Ngnix Reverse Proxy Setup.
--> You will need two servers. One server is for Ngnix Rerverse proxy. The other server is on which you are hosting your actual wordpress website.
+You will need two servers. One server is for Ngnix Rerverse proxy. The other server is on which you are hosting your actual wordpress website.
 
 ## Server 1
 1. Install Wordpress on any linux vps. 

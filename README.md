@@ -32,7 +32,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 }
 ```
 
-### Or only Adding this line will work. 
+#### Or only Adding this line will work. 
 ```
 $_SERVER['HTTPS'] = 'On';
 ```

@@ -15,7 +15,7 @@ You will need two servers. One server is for Ngnix Rerverse proxy. The other ser
 
 # Issues
 ## 1. Ngnix Reverse Proxy Wordpress Too many redirect solution:
-###  Delete this default block:
+###  Delete this default block from wp-config.php (WordPress):
 
 ```
 define('WP_HOME', 'http://example.com');

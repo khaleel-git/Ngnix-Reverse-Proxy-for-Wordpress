@@ -13,9 +13,9 @@ You will need two servers. One server is for the Ngnix Reverse proxy. The other 
 ## Server 2
 1. Take ubuntu or any other linux VPS
 2. Install Ngnix
-3. Setup Ngnix configuration: https://github.com/khaleel-git/ngnix-reverse-proxy-wordpress-setup/blob/master/nginx.conf (Skip SSL block)
-4. Point your domain to this ngnix server
-5. Install SSL via lets encrypt built-in cert-bot: https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+3. Setup Ngnix configuration: nginx.conf (Skip SSL block)
+4. Point your domain to this Ngnix server
+5. Install SSL via Let's Encrypt built-in cert-bot: Using free SSL/TLS certificates from Let's Encrypt with Nginx
 
 ## Issues
 ### 1. Ngnix Reverse Proxy Wordpress Too many redirect solution:

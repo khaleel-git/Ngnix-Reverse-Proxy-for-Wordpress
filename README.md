@@ -1,10 +1,9 @@
 # Ngnix Reverse Proxy Setup
 Nginx Reverse Proxy is a technique used to improve website security and manage web traffic. It involves using the Nginx server as a reverse proxy to hide the web server's actual IP address and balance website traffic across multiple servers, preventing server downtime and ensuring smooth website performance. 
 
-You will need two servers. One server is for the Ngnix Reverse proxy. The other server is on which you are hosting your actual WordPress website.
-
 ![My Image](images/Reverse_proxy_hide_origin_server.png)
 
+You will need two servers. One server is for the Ngnix Reverse proxy. The other server is on which you are hosting your actual WordPress website.
 
 ## Server 1
 1. Install Wordpress on any linux vps

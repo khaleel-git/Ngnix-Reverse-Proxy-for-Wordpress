@@ -3,6 +3,9 @@ Nginx Reverse Proxy is a technique used to improve website security and manage w
 
 You will need two servers. One server is for the Ngnix Reverse proxy. The other server is on which you are hosting your actual WordPress website.
 
+![My Image](images/Reverse_proxy_hide_origin_server.png)
+
+
 ## Server 1
 1. Install Wordpress on any linux vps
 2. Be sure, your wordpress website is acceible via ip-address

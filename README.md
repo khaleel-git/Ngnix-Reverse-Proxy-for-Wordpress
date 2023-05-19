@@ -15,7 +15,7 @@ You will need two servers. One server is for the Ngnix Reverse proxy. The other 
 2. Install Ngnix
 3. Setup Ngnix configuration: nginx.conf (Skip SSL block)
 4. Point your domain to this Ngnix server
-5. Install SSL via Let's Encrypt built-in cert-bot: Using free SSL/TLS certificates from Let's Encrypt with Nginx
+5. Install SSL via Let's Encrypt built-in cert-bot: [https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/]Using free SSL/TLS certificates from Let's Encrypt with Nginx
 
 ## Issues
 ### 1. Ngnix Reverse Proxy Wordpress Too many redirect solution:

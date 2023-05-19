@@ -92,16 +92,17 @@ define( 'WP_DEBUG', false );
         define( 'ABSPATH', __DIR__ . '/' );
 /*}*/
 
-//define( 'WP_HOME', 'https://khaleel.work' ); define( 'WP_SITEURL', 'https://khaleel.work' );
+//define( 'WP_HOME', 'https://example.com' ); define( 'WP_SITEURL', 'https://example.com' );
 
-//define( 'WP_HOME', 'http://147.182.221.201' ); define( 'WP_SITEURL', 'http://147.182.221.201' );
 
 //define('FORCE_SSL_ADMIN', true);
 //if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
   //  $_SERVER['HTTPS'] = 'on';
 //}
 
-$_SERVER['HTTPS'] = 'On';
+// case 2 is working for me
+$_SERVER['HTTPS'] = 'On'; 
+
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
